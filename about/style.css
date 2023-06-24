@@ -1,0 +1,1241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media (min-width:230px) {
+
+    /* For Mobile Devices  For Mobile Devices  For Mobile Devices  For Mobile Devices */
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    .about {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* ABOUT-INNER  ABOUT-INNER  ABOUT-INNER  ABOUT-INNER */
+
+    .about-inner {
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+
+    /* overlay  overlay  overlay  overlay  overlay  overlay */
+
+
+    .about .about-inner .abt-overlay {
+        width: 100%;
+        height: 100%;
+        padding: 40px 10px 40px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000000000;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: rgb(23, 28, 50, 1);
+        display: none;
+    }
+
+    .about .about-inner .abt-overlay .overlay-inner {
+        margin: auto;
+        width: 100%;
+        display: block;
+        /* height: 100%; */
+        padding: 30px;
+        /* height: auto; */
+        position: relative;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #ffffff;
+        border: 1px soldi #ffffff;
+    }
+    .about .about-inner .abt-overlay .overlay-inner .right {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 49%;
+        right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .about .about-inner .abt-overlay .overlay-inner .right:hover {
+        cursor: grab;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .about .about-inner .abt-overlay .overlay-inner .right img {
+        width: 30px;
+        height: 30px;
+    }.about .about-inner .abt-overlay .overlay-inner .left {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 49%;
+        left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    
+    .about .about-inner .abt-overlay .overlay-inner .left:hover {
+        cursor: grab;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .about .about-inner .abt-overlay .overlay-inner .left img {
+        width: 30px;
+        height: 30px;
+    }
+    .about .about-inner .abt-overlay .overlay-inner .close {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .about .about-inner .abt-overlay .overlay-inner .close img {
+        width: 15px;
+        height: 15px;
+    }
+    .about .about-inner .abt-overlay .overlay-inner h3 {
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 600; 
+        padding: 0px 0px 20px 0px;
+        text-transform: uppercase;
+        border-bottom: 1px solid grey;
+        color: #222222;
+    }
+    .about .about-inner .abt-overlay .overlay-inner img {
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+        height: 300px;
+    }
+    .about .about-inner .abt-overlay .overlay-inner h4 {
+        margin: 20px 0px 0px 0px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: #222222;
+    }
+    .about .about-inner .abt-overlay .overlay-inner p {
+        margin: 20px 0px 0px 0px;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    /* overlay  overlay  overlay  overlay  overlay  overlay */
+    
+    
+    .about .about-inner .about-heading {
+        text-align: center;
+        margin: 100px 0px 30px 0px;
+        font-size: 1.9rem;
+        color: #222222;
+    }
+
+    .about .about-inner .about-heading span {
+        color: #4c84ff;
+    }
+
+    /* About Me About Me  About Me About Me  About Me About Me */
+
+    .about .about-inner .about-me {
+        margin: 0px 0px 100px 0px;
+        width: 100%;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        overflow: hidden;
+        color: #555;
+        border-radius: 10px;
+        /* background-color: #222; */
+    }
+
+    /* About Info  About Info  About Info  About Info  About Info  About Info */
+
+    .about .about-inner .about-me .about-info {
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid white;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1 p,
+    .about .about-inner .about-me .about-info .about-info2 p {
+        text-align: center;
+        color: #555555;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1 p span,
+    .about .about-inner .about-me .about-info .about-info2 p span {
+        color: #222222;
+    }
+
+    .about .about-inner .about-me .about-info .about-info2 p span.email-span {
+        font-size: 0.9rem;
+    }
+
+    /* About Info  About Info  About Info  About Info  About Info  About Info */
+
+
+
+    /* About project  About project  About project  About project  About project */
+
+    .about .about-inner .about-me .about-project {
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid white;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1,
+    .about .about-inner .about-me .about-project .abt-project2 {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .image,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .image {
+        margin: 25px 0px 0px 0px;
+        width: 60px;
+        height: 60px;
+        background-color: #4285f41a;
+        border-radius: 10px;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .image img,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .image img {
+        width: 30px;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box h6,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box h6 {
+        margin: 10px 0px 0px 0px;
+        font-size: 1.8rem;
+        color: black;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box p,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box p {
+        margin: 20px 0px 0px 0px;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+
+    /* About project  About project  About project  About project  About project */
+
+
+    /* About What i do  About What i do  About What i do  About What i do */
+
+    .about .about-what-i-do {
+        width: 100%;
+        /* border: 10px solid; */
+    }
+
+    .about .about-inner .about-what-i-do h1 {
+        text-align: center;
+        margin: 100px 0px 30px 0px;
+        font-size: 1.9rem;
+        color: #222222;
+        text-transform: uppercase;
+    }
+
+    .about .about-inner .about-what-i-do h1 span {
+        color: #4c84ff;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner {
+        margin: 0px 0px 100px 0px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 {
+        width: 100%;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box {
+        margin: 30px 0px 0px 0px;
+        /* width: 100%; */
+        padding: 30px;
+        /* height: 300px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        border-radius: 10px;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box img,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box img {
+        /* margin-top: 20px; */
+        width: 80px;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box h6,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box h6 {
+        margin-top: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 550;
+        color: #222222;
+    }
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box h6:hover,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box h6:hover {
+        color: #4c84ff;
+        cursor: pointer;
+    }
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box p,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box p {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        line-height: 1.5rem;
+        color: #555555;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box p strong,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box p strong {
+        color: #222222;
+    }
+
+    /* About What i do  About What i do  About What i do  About What i do */
+
+    /* About-comments  About-comments  About-comments  About-comments  About-comments  */
+
+    .about .about-inner .about-comment {
+        width: 100%;
+    }
+
+    .about .about-inner .about-comment h1 {
+        margin: 0px 0px 40px 0px;
+        text-align: center;
+        color: #222222;
+        font-size: 1.9rem;
+    }
+
+    .about .about-inner .about-comment h1 span {
+        color: #4c84ff;
+    }
+
+    .about .about-inner .about-comment .comment-inner {
+        width: 100%;
+        margin: 0px 0px 100px 0px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 {
+        width: 100%;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box {
+        margin: 0px 0px 30px 0px;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-img {
+        /* width: 40%; */
+        height: auto;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-img img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-img img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading {
+        /* width: 60%; */
+        height: auto;
+        text-align: left;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading h6,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading h6 {
+        margin: 10px 0px 0px 15px;
+        font-size: 1.2rem;
+        color: #222222;
+        line-height: 1.5rem;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading p,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading p {
+        margin: 5px 0px 0px 15px;
+        font-size: 0.9rem;
+        color: #555555;
+        line-height: 1.5rem;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-para img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-para img {
+        margin: 10px 0px 0px 0px;
+        width: 17px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-para p,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-para p {
+        margin: 10px 0px 0px 0px;
+        font-size: 1rem;
+        line-height: 25px;
+        color: #555555;
+    }
+
+    /* About-comments  About-comments  About-comments  About-comments  About-comments  */
+
+    /* ABOUT-INNER  ABOUT-INNER  ABOUT-INNER  ABOUT-INNER */
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    /* For Mobile Devices  For Mobile Devices  For Mobile Devices  For Mobile Devices */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    /* For Tablets For Tablets For Tablets For Tablets For Tablets */
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    .about {
+        width: 100%;
+    }
+
+    /* ABOUT-INNER  ABOUT-INNER  ABOUT-INNER  ABOUT-INNER */
+
+    .about-inner {
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+
+    /* Overlay  Overlay  Overlay  Overlay  Overlay  Overlay */
+
+    .about .about-inner .abt-overlay {
+        width: 100%;
+        height: 100%;
+        padding: 40px 10px 40px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000000000;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: rgb(23, 28, 50, .8);
+        display: none;
+    }
+
+    .about .about-inner .abt-overlay .overlay-inner {
+        margin: auto;
+        width: 700px;
+        display: block;
+        /* height: 100%; */
+        padding: 30px;
+        /* height: auto; */
+        position: relative;
+        opacity: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #ffffff;
+        border: 1px soldi #ffffff;
+    }
+    /* Overlay  Overlay  Overlay  Overlay  Overlay  Overlay */
+    .about .about-inner .about-heading {
+        text-align: center;
+        margin: 90px 0px 40px 0px;
+        font-size: 2.8rem;
+        color: #222222;
+    }
+
+    .about .about-inner .about-heading span {
+        color: #4c84ff;
+    }
+
+    /* About Me About Me  About Me About Me  About Me About Me */
+
+    .about .about-inner .about-me {
+        margin: 0px 0px 100px 0px;
+        width: 100%;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        overflow: hidden;
+        color: #555555;
+        border-radius: 10px;
+        /* background-color: #222; */
+    }
+
+    /* About Info  About Info  About Info  About Info  About Info  About Info */
+
+    .about .about-inner .about-me .about-info {
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1,
+    .about .about-inner .about-me .about-info .about-info2 {
+        width: 50%;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1 p,
+    .about .about-inner .about-me .about-info .about-info2 p {
+        text-align: left;
+        color: #555555;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1 p span,
+    .about .about-inner .about-me .about-info .about-info2 p span {
+        color: #222222;
+    }
+
+    /* .about .about-inner .about-me .about-info .about-info2 p span.email-span {
+    font-size: 0.9rem;
+} */
+
+    /* About Info  About Info  About Info  About Info  About Info  About Info */
+
+
+
+    /* About project  About project  About project  About project  About project */
+
+    .about .about-inner .about-me .about-project {
+        width: 90%;
+        margin: 20px auto 50px auto;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1,
+    .about .about-inner .about-me .about-project .abt-project2 {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .img-h1,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .img-h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .image,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .image {
+        margin: 25px 0px 0px 0px;
+        width: 60px;
+        height: 60px;
+        background-color: #4285f41a;
+        border-radius: 10px;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .image img,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .image img {
+        width: 30px;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box h6,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box h6 {
+        margin: 10px 0px 0px 30px;
+        font-size: 2.5rem;
+        color: #222222;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box h6 sup,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box h6 sup {
+        font-size: 1.5rem;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box p,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box p {
+        margin: 20px 0px 0px 0px;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+
+    /* About project  About project  About project  About project  About project */
+
+
+    /* About What i do  About What i do  About What i do  About What i do */
+
+    .about .about-what-i-do {
+        width: 100%;
+        /* border: 10px solid; */
+    }
+
+    .about .about-inner .about-what-i-do h1 {
+        text-align: center;
+        margin: 100px 0px 10px 0px;
+        font-size: 2.8rem;
+        color: #222222;
+        text-transform: uppercase;
+    }
+
+    .about .about-inner .about-what-i-do h1 span {
+        color: #4c84ff;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner {
+        margin: 0px 0px 100px 0px;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 {
+        width: 48%;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box {
+        margin: 30px 0px 0px 0px;
+        /* width: 100%; */
+        padding: 30px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        border-radius: 10px;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box img,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box img {
+        /* margin-top: 20px; */
+        width: 80px;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box h6,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box h6 {
+        margin-top: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 550;
+        color: #222222;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box p,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box p {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        line-height: 1.5rem;
+        color: #555555;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box p strong,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box p strong {
+        color: #222222;
+    }
+
+    /* About What i do  About What i do  About What i do  About What i do */
+
+    /* About-comments  About-comments  About-comments  About-comments  About-comments  */
+
+    .about .about-inner .about-comment {
+        width: 100%;
+    }
+
+    .about .about-inner .about-comment h1 {
+        margin: 0px 0px 40px 0px;
+        text-align: center;
+        color: #222222;
+        font-size: 2.8rem;
+    }
+
+    .about .about-inner .about-comment h1 span {
+        color: #4c84ff;
+    }
+
+    .about .about-inner .about-comment .comment-inner {
+        width: 100%;
+        margin: 0px 0px 100px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 {
+        width: 48%;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box {
+        margin: 0px 0px 30px 0px;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-img {
+        /* width: 40%; */
+        height: auto;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-img img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-img img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading {
+        /* width: 60%; */
+        height: auto;
+        text-align: left;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading h6,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading h6 {
+        margin: 10px 0px 0px 15px;
+        font-size: 1.2rem;
+        color: #222222;
+        line-height: 1.5rem;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading p,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading p {
+        margin: 5px 0px 0px 15px;
+        font-size: 0.9rem;
+        color: #555555;
+        line-height: 1.5rem;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-para img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-para img {
+        margin: 10px 0px 0px 0px;
+        width: 17px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-para p,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-para p {
+        margin: 10px 0px 0px 0px;
+        font-size: 1rem;
+        line-height: 25px;
+        color: #555555;
+    }
+
+    /* About-comments  About-comments  About-comments  About-comments  About-comments  */
+
+    /* ABOUT-INNER  ABOUT-INNER  ABOUT-INNER  ABOUT-INNER */
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    /* For Tablets For Tablets For Tablets For Tablets For Tablets */
+}
+
+
+
+
+
+
+
+
+@media (min-width:900px) {
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    .about .about-inner {
+        width: 75%;
+    }
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px) {
+    /* FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS */
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    .about {
+        width: 100%;
+    }
+
+    /* ABOUT-INNER  ABOUT-INNER  ABOUT-INNER  ABOUT-INNER */
+
+    .about-inner {
+        width: 924px !important;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-heading {
+        text-align: center;
+        margin: 90px 0px 40px 0px;
+        font-size: 2.8rem;
+        color: #222222;
+    }
+
+    .about .about-inner .about-heading span {
+        color: #4c84ff;
+    }
+
+    /* About Me About Me  About Me About Me  About Me About Me */
+
+    .about .about-inner .about-me {
+        margin: 0px 0px 100px 0px;
+        padding: 30px;
+        width: 100%;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        overflow: hidden;
+        color: #555;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: #222; */
+    }
+
+    /* About Info  About Info  About Info  About Info  About Info  About Info */
+
+    .about .about-inner .about-me .about-info {
+        width: 48%;
+        margin: 0px auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: row;
+        /* height: 280px; */
+    }
+
+    .about .about-inner .about-me .about-info .about-info1,
+    .about .about-inner .about-me .about-info .about-info2 {
+        width: 50%;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1 p,
+    .about .about-inner .about-me .about-info .about-info2 p {
+        text-align: left;
+        color: #555555;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .about .about-inner .about-me .about-info .about-info1 p span,
+    .about .about-inner .about-me .about-info .about-info2 p span {
+        color: #222222;
+    }
+
+    /* .about .about-inner .about-me .about-info .about-info2 p span.email-span {
+    font-size: 0.9rem;
+} */
+
+    /* About Info  About Info  About Info  About Info  About Info  About Info */
+
+
+
+    /* About project  About project  About project  About project  About project */
+
+    .about .about-inner .about-me .about-project {
+        width: 48%;
+        margin: 0px auto 30px auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1,
+    .about .about-inner .about-me .about-project .abt-project2 {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        /* border: 1px solid; */
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .img-h1,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .img-h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .image,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .image {
+        margin: 25px 0px 0px 0px;
+        width: 60px;
+        height: 60px;
+        background-color: #4285f41a;
+        border-radius: 10px;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box .image img,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box .image img {
+        width: 30px;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box h6,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box h6 {
+        margin: 10px 0px 0px 30px;
+        font-size: 2.5rem;
+        color: #222222;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box h6 sup,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box h6 sup {
+        font-size: 1.5rem;
+    }
+
+    .about .about-inner .about-me .about-project .abt-project1 .abt-box p,
+    .about .about-inner .about-me .about-project .abt-project2 .abt-box p {
+        margin: 20px 0px 0px 0px;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+
+    /* About project  About project  About project  About project  About project */
+
+
+    /* About What i do  About What i do  About What i do  About What i do */
+
+    .about .about-what-i-do {
+        width: 100%;
+        /* border: 10px solid; */
+    }
+
+    .about .about-inner .about-what-i-do h1 {
+        text-align: center;
+        margin: 100px 0px 10px 0px;
+        font-size: 2.8rem;
+        color: #222222;
+        text-transform: uppercase;
+    }
+
+    .about .about-inner .about-what-i-do h1 span {
+        color: #4c84ff;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner {
+        margin: 0px 0px 100px 0px;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 {
+        width: 100%;
+        /* border: 1px solid; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box {
+        margin: 30px 0px 0px 0px;
+        width: 31%;
+        padding: 30px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        border-radius: 10px;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box img,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box img {
+        /* margin-top: 20px; */
+        width: 80px;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box h6,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box h6 {
+        margin-top: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 550;
+        color: #222222;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box p,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box p {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        line-height: 1.5rem;
+        color: #555555;
+    }
+
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner1 .what-i-do-box p strong,
+    .about .about-inner .about-what-i-do .what-i-do-inner .what-i-do-inner2 .what-i-do-box p strong {
+        color: #222222;
+    }
+
+    /* About What i do  About What i do  About What i do  About What i do */
+
+    /* About-comments  About-comments  About-comments  About-comments  About-comments  */
+
+    .about .about-inner .about-comment {
+        width: 100%;
+    }
+
+    .about .about-inner .about-comment h1 {
+        margin: 0px 0px 40px 0px;
+        text-align: center;
+        color: #222222;
+        font-size: 2.8rem;
+    }
+
+    .about .about-inner .about-comment h1 span {
+        color: #4c84ff;
+    }
+
+    .about .about-inner .about-comment .comment-inner {
+        width: 100%;
+        margin: 0px 0px 100px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 {
+        width: 100%;
+        /* border: 1px solid; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box {
+        margin: 0px 0px 30px 0px;
+        width: 31%;
+        height: auto;
+        box-shadow: 0px 0px 20px 0px rgb(0 37 93 / 15%);
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-img {
+        /* width: 40%; */
+        height: auto;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-img img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-img img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading {
+        /* width: 60%; */
+        height: auto;
+        text-align: left;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading h6,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading h6 {
+        margin: 10px 0px 0px 15px;
+        font-size: 1.2rem;
+        color: #222222;
+        line-height: 1.5rem;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-logo .comment-heading p,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-logo .comment-heading p {
+        margin: 5px 0px 0px 15px;
+        font-size: 0.9rem;
+        color: #555555;
+        line-height: 1.5rem;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-para img,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-para img {
+        margin: 10px 0px 0px 0px;
+        width: 17px;
+    }
+
+    .about .about-inner .about-comment .comment-inner .comment-inner1 .comment-box .comment-para p,
+    .about .about-inner .about-comment .comment-inner .comment-inner2 .comment-box .comment-para p {
+        margin: 10px 0px 0px 0px;
+        font-size: 1rem;
+        line-height: 25px;
+        color: #555555;
+    }
+
+    /* About-comments  About-comments  About-comments  About-comments  About-comments  */
+
+    /* ABOUT-INNER  ABOUT-INNER  ABOUT-INNER  ABOUT-INNER */
+
+    /* ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT */
+
+    /* FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS  FOR LAPTOPS */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1280px) {
+    /* FOR BIG SCREEN  FOR BIG SCREEN  FOR BIG SCREEN  FOR BIG SCREEN */
+
+    .about-inner {
+        width: 1150px !important;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+
+    /* FOR BIG SCREEN  FOR BIG SCREEN  FOR BIG SCREEN  FOR BIG SCREEN */
+}

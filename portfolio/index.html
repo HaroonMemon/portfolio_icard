@@ -1,0 +1,177 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body id="body">
+
+    <!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV  -->
+    <nav class="nav" id="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../resume/resume.html">Resume</a></li>
+            <li><a href="#portfolio" class="active">Portfolio</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV  -->
+
+
+
+    <!-- MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU -->
+    <button class="menu" id="menu" onclick="show()">
+        <img src="../images/menu.png" alt="">
+    </button>
+    <button class="menu-close" id="menu-close" onclick="hide()">
+        <img src="../images/close.png" alt="">
+    </button>
+    <!-- MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU -->
+
+    <!-- PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO -->
+
+    <div class="portfolio" id="portfolio">
+
+        <!-- PORTFOLIO-INNER  PORTFOLIO-INNER  PORTFOLIO-INNER  PORTFOLIO-INNER -->
+
+        <div class="portfolio-inner">
+
+            <h1 class="heading">My <span>Portfolio</span></h1>
+            <div class="btns">
+                <button href="" id="all-btn" onclick="all_show()" >All</button>
+                <button href="#web-design" id="web-btn" onclick="web_show()">Web design</button>
+                <button href="#template" id="temp-btn" onclick="template_show()">Templates</button>
+                <button href="#creativity" id="creat-btn" onclick="creativity_show()">Creativity</button>
+            </div>
+
+            <div class="all-portfolio">
+                <div class="all-portfolio-inner1" id="port-inner1">
+                    <div class="web-design-box box" id="web-design" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Web desing</p>
+                            </div>
+                            <img src="../images/portfolio.PNG" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Web desing</p>
+                            </div>
+                            <img src="../images/single-web-page.png" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Web desing</p>
+                            </div>
+                            <img src="../images/saylani-web.JPG" alt="">
+                        </div>
+                    </div>
+
+                    <div class="templates-box box" id="template" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Template desing</p>
+                            </div>
+                            <img src="../images/template.jpg" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Template desing</p>
+                            </div>
+                            <img src="../images/template2.PNG" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Template desing</p>
+                            </div>
+                            <img src="../images/template3.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="all-portfolio-inner2" id="port-inner2">
+                
+                    <div class="mixed-box box" id="mixed" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Resume</h5>
+                                <p>Cv desing</p>
+                            </div>
+                            <img src="../images/cv.PNG" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Form Page</h5>
+                                <p>Form design</p>
+                            </div>
+                            <img src="../images/form.JPG" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Animated page</p>
+                            </div>
+                            <img src="../images/creat3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="creativity-box box" id="creativity"">
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Creative desing</p>
+                            </div>
+                            <img src="../images/google-form.png" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Creative desing</p>
+                            </div>
+                            <img src="../images/creat.jpg" alt="">
+                        </div>
+                        <div class="box-inner">
+                            <div class="overlay">
+                                <h5>Single Page Web</h5>
+                                <p>Creative desing</p>
+                            </div>
+                            <img src="../images/creat2.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- PORTFOLIO-INNER  PORTFOLIO-INNER  PORTFOLIO-INNER  PORTFOLIO-INNER -->
+
+
+    </div>
+
+    <!-- PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO -->
+
+    <script src="../app.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

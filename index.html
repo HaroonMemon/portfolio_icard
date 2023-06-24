@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoliio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV  -->
+    <nav class="nav" id="nav">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="about/about.html">About</a></li>
+            <li><a href="resume/resume.html">Resume</a></li>
+            <li><a href="portfolio/index.html">Portfolio</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV  -->
+
+
+
+    <!-- MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU -->
+    <button class="menu" id="menu" onclick="show()">
+        <img src="images/menu.png" alt="">
+    </button>
+    <button class="menu-close" id="menu-close" onclick="hide()">
+        <img src="images/close.png" alt="">
+    </button>
+    <!-- MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU -->
+
+
+
+
+    <!-- MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN -->
+    <div class="main">
+
+        <!-- LOGO  LOGO  LOGO  LOGO  LOGO  LOGO  LOGO  LOGO  LOGO -->
+        <div class="logo" data-aos="fade-right" data-aos-duration="1000">
+            <div class="logo-img">
+                <img src="images/image2.jpg" alt="">
+            </div>
+        </div>
+        <!-- LOGO  LOGO  LOGO  LOGO  LOGO  LOGO  LOGO  LOGO  LOGO -->
+
+
+        <!-- ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT -->
+        <div class="home-about"  data-aos="fade-left" data-aos-duration="1000">
+            <div class="hello">
+                <div class="tri-down"></div>
+                <p>hello</p>
+            </div>
+            <h1><span>i'm </span> M.Haroon Memon</h1>
+            <h5 aria-label="Hi! I'm a developer">
+                I'm a&nbsp;<span class="typewriter"></span>
+            </h5>
+            <p class="about-text">
+                With over 1.5 years of experience. I learned porgramming at SMIT (Saylani Mass Infomation Technology)
+                and
+                later honed my skills through commercial and freelance experience. My skills include HTML, CSS,
+                BootStarp, Javascript
+                and Mediaquery.
+            </p>
+            <div class="btns">
+                <a href="" class="about-btn"><img src="images/port-1.png" class="port-1" alt=""> <img
+                        src="images/port-2.png" class="port-2" alt="">Portfolio</a>
+                <a href="overlay/index.html" class="overlay-btn"><img src="images/overlayw.png" class="overlay-1-img"
+                        alt=""><img src="images/overlayb.png" class="overlay-2-img" alt=""> Overlay</a>
+            </div>
+        </div>
+        <!-- ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT  ABOUT -->
+
+
+    </div>
+    <!-- MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN  MAIN -->
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

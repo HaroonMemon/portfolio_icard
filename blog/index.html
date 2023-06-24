@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV  -->
+    <nav class="nav" id="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../resume/resume.html">Resume</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="index.html" class="active">Blog</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV  -->
+
+
+
+    <!-- MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU -->
+    <button class="menu" id="menu" onclick="show()">
+        <img src="../images/menu.png" alt="">
+    </button>
+    <button class="menu-close" id="menu-close" onclick="hide()">
+        <img src="../images/close.png" alt="">
+    </button>
+    <!-- MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU  MENU -->
+
+    <!-- BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG -->
+
+    <div class="blog" id="blog">
+
+        <div class="blog-inner">
+            <h1> My <span>Blog</span></h1>
+            <div class="my-blogs">
+                <div class="my-blog-inner1">
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="blog-overlay overlay1">
+                        <div class="blog-overlay-inner">
+                            <button id="overlay-close" onclick="blog_overlay_close1()"><img src="../images/close2.png"
+                                    alt=""></button>
+                            <img class="overlay-img" src="../images/blog1.jpg" alt="">
+                            <h4>
+                                BY AN OUTLIVED INSISTED PROCURED IMPROVED
+                                AM. PAID HILL FINE TEN NOW LOVE EVEN LEAF.
+                            </h4>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                Alex Jole
+                            </p>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                February 21, 2022
+                            </p>
+                            <p class="overlay-para">
+                                Now for manners use has company believe parlors. Least nor party who
+                                wrote while did. Excuse formed as is agreed admire so on result parish.
+                                Put use set uncommonly announcing and travelling. Allowance sweetness
+                                direction to as necessary. Principle oh explained excellent do my
+                                suspected conveying in.
+                            </p>
+                            <p class="overlay-para">
+                                Least nor party who wrote while did. Excuse formed as is agreed admire
+                                so on result parish. Put use set uncommonly announcing and travelling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="my-blog-box">
+                        <div class="blog-back">
+                            <img src="../images/blog1.jpg" class="blog-back-img" alt="">
+                        </div>
+                        <div class="blog-bar">
+                            <img src="../images/admin.png" alt="">
+                            <p> By, Admin <span> 10 Nov, 2022</span></p>
+                        </div>
+                        <div class="blog-para">
+                            <h3 onclick="blog_overlay1()">5 REASONS WHY YOUR WEBSITE NEEDS MORE WH...</h3>
+                            <p>
+                                Repulsive questions contented him few extensive supported. Of remarkably
+                                thoroughly he appearance in. Supposing tolerably applauded.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="blog-overlay overlay2">
+                        <div class="blog-overlay-inner">
+                            <button id="overlay-close" onclick="blog_overlay_close2()"><img src="../images/close2.png"
+                                    alt=""></button>
+                            <img class="overlay-img" src="../images/blog2.jpg" alt="">
+                            <h4>
+                                BY AN OUTLIVED INSISTED PROCURED IMPROVED
+                                AM. PAID HILL FINE TEN NOW LOVE EVEN LEAF.
+                            </h4>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                Alex Jole
+                            </p>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                February 21, 2022
+                            </p>
+                            <p class="overlay-para">
+                                Now for manners use has company believe parlors. Least nor party who
+                                wrote while did. Excuse formed as is agreed admire so on result parish.
+                                Put use set uncommonly announcing and travelling. Allowance sweetness
+                                direction to as necessary. Principle oh explained excellent do my
+                                suspected conveying in.
+                            </p>
+                            <p class="overlay-para">
+                                Least nor party who wrote while did. Excuse formed as is agreed admire
+                                so on result parish. Put use set uncommonly announcing and travelling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="my-blog-box">
+                        <div class="blog-back">
+                            <img src="../images/blog2.jpg" class="blog-back-img" alt="">
+                        </div>
+                        <div class="blog-bar">
+                            <img src="../images/admin.png" alt="">
+                            <p> By, Admin <span> 10 Nov, 2022</span></p>
+                        </div>
+                        <div class="blog-para">
+                            <h3 onclick="blog_overlay2()">7 STEPS TO OPTIMIZE YOUR WEBSITE FOR MIL...</h3>
+                            <p>
+                                Repulsive questions contented him few extensive supported. Of remarkably
+                                thoroughly he appearance in. Supposing tolerably applauded.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="blog-overlay overlay3">
+                        <div class="blog-overlay-inner">
+                            <button id="overlay-close" onclick="blog_overlay_close3()"><img src="../images/close2.png"
+                                    alt=""></button>
+                            <img class="overlay-img" src="../images/blog3.jpg" alt="">
+                            <h4>
+                                BY AN OUTLIVED INSISTED PROCURED IMPROVED
+                                AM. PAID HILL FINE TEN NOW LOVE EVEN LEAF.
+                            </h4>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                Alex Jole
+                            </p>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                February 21, 2022
+                            </p>
+                            <p class="overlay-para">
+                                Now for manners use has company believe parlors. Least nor party who
+                                wrote while did. Excuse formed as is agreed admire so on result parish.
+                                Put use set uncommonly announcing and travelling. Allowance sweetness
+                                direction to as necessary. Principle oh explained excellent do my
+                                suspected conveying in.
+                            </p>
+                            <p class="overlay-para">
+                                Least nor party who wrote while did. Excuse formed as is agreed admire
+                                so on result parish. Put use set uncommonly announcing and travelling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+                    <div class="my-blog-box">
+                        <div class="blog-back">
+                            <img src="../images/blog3.jpg" class="blog-back-img" alt="">
+                        </div>
+                        <div class="blog-bar">
+                            <img src="../images/admin.png" alt="">
+                            <p> By, Admin <span> 10 Nov, 2022</span></p>
+                        </div>
+                        <div class="blog-para">
+                            <h3 onclick="blog_overlay3()">8 THINGS TO KNOW WHEN DESIGNING AUGMENTE...</h3>
+                            <p>
+                                Repulsive questions contented him few extensive supported. Of remarkably
+                                thoroughly he appearance in. Supposing tolerably applauded.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-blog-inner2">
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="blog-overlay overlay4">
+                        <div class="blog-overlay-inner">
+                            <button id="overlay-close" onclick="blog_overlay_close4()"><img src="../images/close2.png"
+                                    alt=""></button>
+                            <img class="overlay-img" src="../images/blog4.jpg" alt="">
+                            <h4>
+                                BY AN OUTLIVED INSISTED PROCURED IMPROVED
+                                AM. PAID HILL FINE TEN NOW LOVE EVEN LEAF.
+                            </h4>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                Alex Jole
+                            </p>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                February 21, 2022
+                            </p>
+                            <p class="overlay-para">
+                                Now for manners use has company believe parlors. Least nor party who
+                                wrote while did. Excuse formed as is agreed admire so on result parish.
+                                Put use set uncommonly announcing and travelling. Allowance sweetness
+                                direction to as necessary. Principle oh explained excellent do my
+                                suspected conveying in.
+                            </p>
+                            <p class="overlay-para">
+                                Least nor party who wrote while did. Excuse formed as is agreed admire
+                                so on result parish. Put use set uncommonly announcing and travelling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+                    <div class="my-blog-box">
+                        <div class="blog-back">
+                            <img src="../images/blog4.jpg" class="blog-back-img" alt="">
+                        </div>
+                        <div class="blog-bar">
+                            <img src="../images/admin.png" alt="">
+                            <p> By, Admin <span> 10 Nov, 2022</span></p>
+                        </div>
+                        <div class="blog-para">
+                            <h3 onclick="blog_overlay4()">SED UT PERSPICIATIS UNDE OMNIS ISTE NATU...</h3>
+                            <p>
+                                Repulsive questions contented him few extensive supported. Of remarkably
+                                thoroughly he appearance in. Supposing tolerably applauded.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="blog-overlay overlay5">
+                        <div class="blog-overlay-inner">
+                            <button id="overlay-close" onclick="blog_overlay_close5()"><img src="../images/close2.png"
+                                    alt=""></button>
+                            <img class="overlay-img" src="../images/blog5.jpg" alt="">
+                            <h4>
+                                BY AN OUTLIVED INSISTED PROCURED IMPROVED
+                                AM. PAID HILL FINE TEN NOW LOVE EVEN LEAF.
+                            </h4>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                Alex Jole
+                            </p>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                February 21, 2022
+                            </p>
+                            <p class="overlay-para">
+                                Now for manners use has company believe parlors. Least nor party who
+                                wrote while did. Excuse formed as is agreed admire so on result parish.
+                                Put use set uncommonly announcing and travelling. Allowance sweetness
+                                direction to as necessary. Principle oh explained excellent do my
+                                suspected conveying in.
+                            </p>
+                            <p class="overlay-para">
+                                Least nor party who wrote while did. Excuse formed as is agreed admire
+                                so on result parish. Put use set uncommonly announcing and travelling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+                    <div class="my-blog-box">
+                        <div class="blog-back">
+                            <img src="../images/blog5.jpg" class="blog-back-img" alt="">
+                        </div>
+                        <div class="blog-bar">
+                            <img src="../images/admin.png" alt="">
+                            <p> By, Admin <span> 10 Nov, 2022</span></p>
+                        </div>
+                        <div class="blog-para">
+                            <h3 onclick="blog_overlay5()">A SERIES OF IOS 7 INSPIRE VECTOR QUESTIO...</h3>
+                            <p>
+                                Repulsive questions contented him few extensive supported. Of remarkably
+                                thoroughly he appearance in. Supposing tolerably applauded.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+
+                    <div class="blog-overlay overlay6">
+                        <div class="blog-overlay-inner">
+                            <button id="overlay-close" onclick="blog_overlay_close6()"><img src="../images/close2.png"
+                                    alt=""></button>
+                            <img class="overlay-img" src="../images/blog6.jpg" alt="">
+                            <h4>
+                                BY AN OUTLIVED INSISTED PROCURED IMPROVED
+                                AM. PAID HILL FINE TEN NOW LOVE EVEN LEAF.
+                            </h4>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                Alex Jole
+                            </p>
+                            <p class="overlay-icon">
+                                <img src="../images/admin.png" class="admin1" alt="">
+                                <img src="../images/admin2.png" class="admin2" alt="">
+                                February 21, 2022
+                            </p>
+                            <p class="overlay-para">
+                                Now for manners use has company believe parlors. Least nor party who
+                                wrote while did. Excuse formed as is agreed admire so on result parish.
+                                Put use set uncommonly announcing and travelling. Allowance sweetness
+                                direction to as necessary. Principle oh explained excellent do my
+                                suspected conveying in.
+                            </p>
+                            <p class="overlay-para">
+                                Least nor party who wrote while did. Excuse formed as is agreed admire
+                                so on result parish. Put use set uncommonly announcing and travelling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- overlay  overlay  overlay  overlay  overlay -->
+                    <div class="my-blog-box">
+                        <div class="blog-back">
+                            <img src="../images/blog6.jpg" class="blog-back-img" alt="">
+                        </div>
+                        <div class="blog-bar">
+                            <img src="../images/admin.png" alt="">
+                            <p> By, Admin <span> 10 Nov, 2022</span></p>
+                        </div>
+                        <div class="blog-para">
+                            <h3 onclick="blog_overlay6()">THE 5 REAL QUESTIONS TO ASK POTENTIAL WE...</h3>
+                            <p>
+                                Repulsive questions contented him few extensive supported. Of remarkably
+                                thoroughly he appearance in. Supposing tolerably applauded.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG BLOG -->
+
+    <script src="../app.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
